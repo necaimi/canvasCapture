@@ -1,0 +1,22 @@
+{
+    "manifest_version":2,
+    "name":"Canvas2D image Download",
+    "version":"1.0",
+    "author":"umbrella<umbrella@errorot.com>",
+    "description":"canvas资源下载 -- 目前仅支持图片下载",
+    "browser_action":{
+                      "default_title":"看穿一切的沼跃鱼",
+                      "default_popup":"popup/popup.html"
+                     },
+    "icons":{
+        "16":"resources/logo16.png",
+        "48":"resources/logo48.png",
+        "128":"resources/logo128.png"
+    },
+    "permissions":[
+        "tabs", "http://*/*", "https://*/*", "activeTab", "\u003Call_urls\u003E","notifications"
+    ],
+    "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+    
+    "minimum_chrome_version": "22"
+}
